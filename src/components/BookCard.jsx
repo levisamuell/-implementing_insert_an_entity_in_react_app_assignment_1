@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./BookCard.css"; // Import the CSS for styling
+import { useNavigate } from "react-router-dom";
 
 const BookCard = ({ book }) => {
   const { title, author, description, coverImage } = book;
